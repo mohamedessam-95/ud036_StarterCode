@@ -1,30 +1,71 @@
-# Movie Website :
-Source code for a Movie Trailer website.
+# Movie Trailer Website 
+ **by ٌReda Zerrougui**
 
-# Requirements :
-You must have python installed on your machine https://www.python.org/
 
-# Installation :
-Download each of these files and put them in the same directory :
- 
- 1 - media.py
- 
- 2 - entertainment_center.py
- 
- 3 - fresh_tomatoes.py
- 
- ----> Then double click on entertainment_center.py to invoke the python server-side code and open the website
- 
- # Usage :
- The website is easy to use , you can scroll down to see the movie posters and click on any of them to view it's trailer
- 
- # Change log :
- The fresh_tomatoes.py is provided with more css rules and background image
- 
- # Technical information :
- 
-   media.py : It contains the movie class definition that will hold individual information of each movie object when instantiated
-   
-   entertainment_center.py : It contains the movie objects of each individual movie and it collects them in a list and passes them into open_movies_page() function that resides in fresh_tomatoes
-   
-   fresh_tomatoes.py : It contains the actual html code and css rules along with some python server-side code that extracts the movie objects and put them in a showcase
+ ## Project  Description:
+
+Movie trailer website project, part of the **Udacity** [Full Stack Web Developer
+Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
+The project consists of server-side Python code to store a list of my favorite movies, including movie poster and a movie trailer URL.
+
+  ## What it does
+
+ - A **Python** code is  used to generate a static HTML web page that displays my favorite movies, and watch the trailers by clicking on each movie's poster.
+ - **The screenshot**
+![movie trailer screenshot](https://user-images.githubusercontent.com/29575348/40196611-f39242e0-5a08-11e8-8d43-164ec49278e9.jpg)
+
+
+ ## Project contents
+
+Within the download you'll find the following directories and files:
+
+```
+Movie-Trailer-Website-project-master/
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+├── entertainment_center.py
+├── fresh_tomatoes.py
+├── media.py
+├── LICENSE.md
+└── README.md
+```
+## Requirements
+
+ 1.   Python 2.7 [https://www.python.org/downloads/](https://www.python.org/downloads/)
+    
+ 2.   Internet Browser (Chrome, Firefox, Edge...)
+
+## How to Run Project
+
+1. Clone repository to your desktop, Or download the project zip file to you computer and unzip the file .
+
+2. Open the Shell interface for your operating system (e.g. the terminal  in Linux and Mac, the command prompt in Windows).
+
+ 3. Navigate to the project directory and type in the following command:
+``
+python entertainment_center.py
+``
+4. Your default browser should  display the movie trailer website.
+ **Click** on a movie poster to play its trailer.
+
+ ## Extra Description
+ The original file **fresh_tomatoes.py** is provided by Udacity [link](https://github.com/udacity/ud036_StarterCode)
+
+The following features were implemented :
+* Addition of two new files styles.ccs and scripts.js for CSS styling and Java script functions.
+* Changed the background and text colour .
+* Added scale on Hover  to the movie poster images.
+* entertainment_center.py : main Python script to run
+*   media.py : contains the class Movie that stores movie details
+
+ ## Licence
+
+The MIT License ([MIT](https://choosealicense.com/licenses/mit/#))
+
+
+Copyright (c) [2018] [Reda Zerrougui]
+
+
+
